@@ -24,7 +24,8 @@ defmodule Jido.Claude.Adapter do
     :verbose,
     :include_partial_messages,
     :output_format,
-    :env
+    :env,
+    :settings
   ]
 
   @impl true
